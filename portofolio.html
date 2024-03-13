@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portofolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <style>
+            .contentPort {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                h1 {
+                text-align: center;
+                color: #333;
+                }
+                .portfolio {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-gap: 20px;
+                    .project {
+                    background-color: #fff;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    padding: 20px;
+                    border-radius: 5px;
+                        img {
+                        max-width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                        }
+                        h3 {
+                        margin-top: 10px;
+                        text-align: center;
+                        color: #333;
+                        }
+                        p {
+                        color: #666;
+                        }
+                        .button-container {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                            a {
+                            display: inline-block;
+                            background-color: #333;
+                            color: #fff;
+                            padding: 8px 16px;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            transition: background-color 0.3s ease;
+                            }
+                            a:hover {
+                            background-color: #555;
+                            }
+                        }
+            
+                    }
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="prestasi.html">Prestasi</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="contentPort">
+            <h1>Portofolio</h1>
+            <div class="portfolio">
+                <div class="project">
+                    <img src="images/project4.png" alt="Proyek 4: YouTube Transcriber">
+                    <h3>Youtube Transcriber</h3>
+                    <p>"Youtube Transcriber" adalah sebuah aplikasi atau program komputer yang bertujuan untuk menghasilkan transkripsi teks dari video yang diunggah di platform YouTube melalui API Gemini Pro. Tujuan utama dari proyek ini adalah untuk menyediakan transkripsi teks dari video-video YouTube agar lebih mudah diakses, dicari, dan dipahami oleh pengguna.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/rel1vee/YoutubeTranscriber" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project5.png" alt="Proyek 5: Code Assistant">
+                    <h3>Code Assistant</h3>
+                    <p>"Code Assistant" adalah sebuah aplikasi atau program komputer yang dirancang untuk membantu pengembang perangkat lunak dalam menulis kode dengan lebih efisien dan produktif dengan menggunakan Llama2 LLM. Tujuan utama dari proyek ini adalah untuk menyediakan alat bantu yang dapat meningkatkan produktivitas pengembang dengan memberikan saran, petunjuk, dan alat yang berguna saat menulis kode.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/rel1vee/CodeAssistant" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project3.png" alt="Proyek 3: ChatBot">
+                    <h3>Q&A ChatBot</h3>
+                    <p>"Q&A ChatBot" bertujuan untuk membuat sebuah sistem chatbot interaktif yang mampu menjawab pertanyaan-pertanyaan pengguna berdasarkan pengetahuan yang tersedia dalam database atau sumber informasi tertentu yang diakses melalui API Gemini Pro.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/rel1vee/GeminiChatBot" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project2.png" alt="Proyek 2: Jadwal Salat">
+                    <h3>Jadwal Salat</h3>
+                    <p>"Jadwal Salat" adalah sebuah aplikasi atau program komputer yang bertujuan untuk memberikan informasi jadwal waktu salat kepada pengguna. Dalam kehidupan sehari-hari umat Islam, mengetahui waktu-waktu salat sangatlah penting untuk menjalankan ibadah dengan tepat waktu.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/rel1vee/JadwalSalat" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project1.png" alt="Proyek 1: Sliding-Puzzle Solver">
+                    <h3>Sliding-Puzzle Solver</h3>
+                    <p>"Sliding-Puzzle Solver" adalah sebuah program komputer yang dirancang untuk menyelesaikan teka-teki permainan puzzle geser. Tujuan utama dari proyek ini adalah untuk memberikan solusi otomatis bagi teka-teki puzzle geser yang diberikan. Solusi menggunakan 2 metode yaitu, BFS dan A*.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/rel1vee/Sliding-Puzzle-Solver" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <footer>
+            <div class="footer-content">
+              <p>&copy; 2024 Mzes. All rights reserved.</p>
+              <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100084336513986" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/MzesID" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/reliv.ee/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/rel1vee" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muh-zaki-erbai-syas/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+        </footer>
+    </body>
+</html>
